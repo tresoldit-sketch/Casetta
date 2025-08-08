@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Menu - Landing Page</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    iframe {
+      flex: 1;
+      border: none;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Benvenuto nel nostro Ristorante</h1>
+    <p>Consulta il nostro menù qui sotto</p>
+  </header>
+
+  <!-- Visualizzazione del PDF -->
+  <iframe src="menu.pdf" type="application/pdf"></iframe>
+
+</body>
+</html>
